@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website</title>
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./logo.png" />
+  <!--font awesome cdn font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="web-header">
+      <a href="index.html"><img src="./logo.png" alt="logo"></a>
+      <h1>WELCOME TO HACKING COMMUNITY OF LEARNING</h1>
+      <div class="web-social">
+
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+
+        <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+
+        <a href="https://www.googleplus.com" target="blank"><i class="fab fa-google-plus"></i></a>
+
+        <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="breknews">
+      <span id="btext">NEW COURSES</span>
+      <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#" class="newc">
+          <p class="bntime">13 march 2021</p>
+          NEW COURSE OF PYTHON IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">15 march 2021</p>
+          NEW COURSE OF REACT IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">19 march 2021</p>
+          NEW COURSE OF JAVA IS ARRIVED
+        </a>
+      </marquee>
+    </div>
+
+  </header>
+
+  <article class="ar1">
+
+    <ul class="leftmenu">
+      <li class="mh">C++ Basics</li>
+      <li><a href="home.html">C++ Home</a></li>
+      <li><a href="c++overview.html">C++ Overview</a></li>
+      <li><a href="C++EnvironmentSetup.html">C++ Environment Setup</a></li>
+      <li><a href="C++BasicSyntax.html">C++ Basic Syntax</a></li>
+      <li><a href="C++Comments.html">C++ Comments</a></li>
+      <li><a href="c++datatypes.html">C++ Data Types</a></li>
+      <li><a href="c++variabletypes.html">C++ Variable Types</a></li>
+      <li><a href="c++variablescope.html">C++ Variable Scope</a></li>
+      <li><a href="c++constantsliterls.html">C++ Constants/Literals</a></li>
+      <li><a href="c++modifiertypes.html">C++ Modifier Types</a></li>
+      <li><a href="c++storageclasses.html">C++ Storage Classes</a></li>
+      <li><a href="c++operators.html">C++ Operators</a></li>
+      <li><a href="c++looptypes.html">C++ Loop Types</a></li>
+      <li><a href="c++desisionmaking.html">C++ Decision Making</a></li>
+      <li><a href="c++functions.html">C++ Functions</a></li>
+      <li><a href="c++numbers.html">C++ Numbers</a></li>
+      <li><a href="c++arrays.html">C++ Arrays</a></li>
+      <li><a href="c++strings.html">C++ Strings</a></li>
+      <li><a href="c++pointer.html">C++ Pointers</a></li>
+      <li><a href="c++references.html">C++ References</a></li>
+      <li><a href="c++datetime.html">C++ Date &amp; Time</a></li>
+      <li><a href="c++basicinpuloutput.html">C++ Basic Input/Output</a></li>
+      <li><a href="c++datastructures.html">C++ Data Structures</a></li>
+    </ul>
+
+    <p>The C++ standard library does not provide a proper date type. C++ inherits the structs and functions for date and
+      time manipulation from C. To access date and time related functions and structures, you would need to include
+      &lt;ctime&gt; header file in your C++ program.</p>
+    <p>There are four time-related types: <b>clock_t, time_t, size_t</b>, and <b>tm</b>. The types - clock_t, size_t and
+      time_t are capable of representing the system time and date as some sort of integer.</p>
+    <p>The structure type <b>tm</b> holds the date and time in the form of a C structure having the following elements
+      &minus;</p>
+    <pre class="result notranslate">
+                struct tm {
+                   int tm_sec;   // seconds of minutes from 0 to 61
+                   int tm_min;   // minutes of hour from 0 to 59
+                   int tm_hour;  // hours of day from 0 to 24
+                   int tm_mday;  // day of month from 1 to 31
+                   int tm_mon;   // month of year from 0 to 11
+                   int tm_year;  // year since 1900
+                   int tm_wday;  // days since sunday
+                   int tm_yday;  // days since January 1st
+                   int tm_isdst; // hours of daylight savings time
+                }
+                </pre>
+    <p>Following are the important functions, which we use while working with date and time in C or C++. All these
+      functions are part of standard C and C++ library and you can check their detail using reference to C++ standard
+      library given below.</p>
+    <table class="table table-bordered">
+      <tr>
+        <th>Sr.No</th>
+        <th style="text-align:center;">Function &amp; Purpose</th>
+      </tr>
+      <tr>
+        <td class="ts">1</td>
+        <td>
+          <p><b>time_t time(time_t *time);</b></p>
+          <p>This returns the current calendar time of the system in number of seconds elapsed since January 1, 1970. If
+            the system has no time, .1 is returned.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">2</td>
+        <td>
+          <p><b>char *ctime(const time_t *time);</b></p>
+          <p>This returns a pointer to a string of the form <i>day month year hours:minutes:seconds year\n\0</i>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">3</td>
+        <td>
+          <p><b>struct tm *localtime(const time_t *time);</b></p>
+          <p>This returns a pointer to the <b>tm</b> structure representing local time.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">4</td>
+        <td>
+          <p><b>clock_t clock(void);</b></p>
+          <p>This returns a value that approximates the amount of time the calling program has been running. A value of
+            .1 is returned if the time is not available.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">5</td>
+        <td>
+          <p><b>char * asctime ( const struct tm * time );</b></p>
+          <p>This returns a pointer to a string that contains the information stored in the structure pointed to by time
+            converted into the form: day month date hours:minutes:seconds year\n\0</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">6</td>
+        <td>
+          <p><b>struct tm *gmtime(const time_t *time);</b></p>
+          <p>This returns a pointer to the time in the form of a tm structure. The time is represented in Coordinated
+            Universal Time (UTC), which is essentially Greenwich Mean Time (GMT).</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">7</td>
+        <td>
+          <p><b>time_t mktime(struct tm *time);</b></p>
+          <p>This returns the calendar-time equivalent of the time found in the structure pointed to by time.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">8</td>
+        <td>
+          <p><b>double difftime ( time_t time2, time_t time1 );</b></p>
+          <p>This function calculates the difference in seconds between time1 and time2.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">9</td>
+        <td>
+          <p><b>size_t strftime();</b></p>
+          <p>This function can be used to format date and time in a specific format.</p>
+        </td>
+      </tr>
+    </table>
+    <h2>Current Date and Time</h2>
+    <p>Suppose you want to retrieve the current system date and time, either as a local time or as a Coordinated
+      Universal Time (UTC). Following is the example to achieve the same &minus;</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/DHKMA9" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranslate">
+                #include &lt;iostream&gt;
+                #include &lt;ctime&gt;
+                
+                using namespace std;
+                
+                int main() {
+                   // current date/time based on current system
+                   time_t now = time(0);
+                   
+                   // convert now to string form
+                   char* dt = ctime(&amp;now);
+                
+                   cout &lt;&lt; "The local date and time is: " &lt;&lt; dt &lt;&lt; endl;
+                
+                   // convert now to tm struct for UTC
+                   tm *gmtm = gmtime(&amp;now);
+                   dt = asctime(gmtm);
+                   cout &lt;&lt; "The UTC date and time is:"&lt;&lt; dt &lt;&lt; endl;
+                }
+                </pre>
+    <p>When the above code is compiled and executed, it produces the following result &minus;</p>
+    <pre class="result notranslate">
+                The local date and time is: Sat Jan  8 20:07:41 2011
+                
+                The UTC date and time is:Sun Jan  9 03:07:41 2011
+                </pre>
+    <h2>Format Time using struct tm</h2>
+    <p>The <b>tm</b> structure is very important while working with date and time in either C or C++. This structure
+      holds the date and time in the form of a C structure as mentioned above. Most of the time related functions makes
+      use of tm structure. Following is an example which makes use of various date and time related functions and tm
+      structure &minus;</p>
+    <p>While using structure in this chapter, I'm making an assumption that you have basic understanding on C structure
+      and how to access structure members using arrow -&gt; operator.</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/SMnO0N" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranslate">
+                #include &lt;iostream&gt;
+                #include &lt;ctime&gt;
+                
+                using namespace std;
+                
+                int main() {
+                   // current date/time based on current system
+                   time_t now = time(0);
+                
+                   cout &lt;&lt; "Number of sec since January 1,1970 is:: " &lt;&lt; now &lt;&lt; endl;
+                
+                   tm *ltm = localtime(&amp;now);
+                
+                   // print various components of tm structure.
+                   cout &lt;&lt; "Year:" &lt;&lt; 1900 + ltm-&gt;tm_year&lt;&lt;endl;
+                   cout &lt;&lt; "Month: "&lt;&lt; 1 + ltm-&gt;tm_mon&lt;&lt; endl;
+                   cout &lt;&lt; "Day: "&lt;&lt; ltm-&gt;tm_mday &lt;&lt; endl;
+                   cout &lt;&lt; "Time: "&lt;&lt; 5+ltm-&gt;tm_hour &lt;&lt; ":";
+                   cout &lt;&lt; 30+ltm-&gt;tm_min &lt;&lt; ":";
+                   cout &lt;&lt; ltm-&gt;tm_sec &lt;&lt; endl;
+                }
+                </pre>
+    <p>When the above code is compiled and executed, it produces the following result &minus;</p>
+    <pre class="result notranslate">
+                Number of sec since January 1,1970 is:: 1588485717
+                Year:2020
+                Month: 5
+                Day: 3
+                Time: 11:31:57
+                </pre>
+  </article>
+
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+  <!-- bootstrap cdn javascrip link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

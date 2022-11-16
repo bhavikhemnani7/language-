@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website</title>
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./logo.png" />
+  <!--font awesome cdn font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="web-header">
+      <a href="index.html"><img src="./logo.png" alt="logo"></a>
+      <h1>WELCOME TO HACKING COMMUNITY OF LEARNING</h1>
+      <div class="web-social">
+
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+
+        <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+
+        <a href="https://www.googleplus.com" target="blank"><i class="fab fa-google-plus"></i></a>
+
+        <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="breknews">
+      <span id="btext">NEW COURSES</span>
+      <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#" class="newc">
+          <p class="bntime">13 march 2021</p>
+          NEW COURSE OF PYTHON IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">15 march 2021</p>
+          NEW COURSE OF REACT IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">19 march 2021</p>
+          NEW COURSE OF JAVA IS ARRIVED
+        </a>
+      </marquee>
+    </div>
+
+  </header>
+
+  <article class="ar1">
+
+    <ul class="leftmenu">
+      <li class="mh">C++ Basics</li>
+      <li><a href="home.html">C++ Home</a></li>
+      <li><a href="c++overview.html">C++ Overview</a></li>
+      <li><a href="C++EnvironmentSetup.html">C++ Environment Setup</a></li>
+      <li><a href="C++BasicSyntax.html">C++ Basic Syntax</a></li>
+      <li><a href="C++Comments.html">C++ Comments</a></li>
+      <li><a href="c++datatypes.html">C++ Data Types</a></li>
+      <li><a href="c++variabletypes.html">C++ Variable Types</a></li>
+      <li><a href="c++variablescope.html">C++ Variable Scope</a></li>
+      <li><a href="c++constantsliterls.html">C++ Constants/Literals</a></li>
+      <li><a href="c++modifiertypes.html">C++ Modifier Types</a></li>
+      <li><a href="c++storageclasses.html">C++ Storage Classes</a></li>
+      <li><a href="c++operators.html">C++ Operators</a></li>
+      <li><a href="c++looptypes.html">C++ Loop Types</a></li>
+      <li><a href="c++desisionmaking.html">C++ Decision Making</a></li>
+      <li><a href="c++functions.html">C++ Functions</a></li>
+      <li><a href="c++numbers.html">C++ Numbers</a></li>
+      <li><a href="c++arrays.html">C++ Arrays</a></li>
+      <li><a href="c++strings.html">C++ Strings</a></li>
+      <li><a href="c++pointer.html">C++ Pointers</a></li>
+      <li><a href="c++references.html">C++ References</a></li>
+      <li><a href="c++datetime.html">C++ Date &amp; Time</a></li>
+      <li><a href="c++basicinpuloutput.html">C++ Basic Input/Output</a></li>
+      <li><a href="c++datastructures.html">C++ Data Structures</a></li>
+    </ul>
+
+    <p>While writing program in any language, you need to use various variables to store various information. Variables
+      are nothing but reserved memory locations to store values. This means that when you create a variable you reserve
+      some space in memory.</p>
+    <p>You may like to store information of various data types like character, wide character, integer, floating point,
+      double floating point, boolean etc. Based on the data type of a variable, the operating system allocates memory
+      and decides what can be stored in the reserved memory.</p>
+    <h2>Primitive Built-in Types</h2>
+    <p>C++ offers the programmer a rich assortment of built-in as well as user defined data types. Following table lists
+      down seven basic C++ data types &minus;</p>
+    <table class="table table-bordered" style="text-align:center;">
+      <tr>
+        <th width="50%" style="text-align:center;">Type</th>
+        <th style="text-align:center;">Keyword</th>
+      </tr>
+      <tr>
+        <td>Boolean</td>
+        <td>bool</td>
+      </tr>
+      <tr>
+        <td>Character</td>
+        <td>char</td>
+      </tr>
+      <tr>
+        <td>Integer</td>
+        <td>int</td>
+      </tr>
+      <tr>
+        <td>Floating point</td>
+        <td>float</td>
+      </tr>
+      <tr>
+        <td>Double floating point</td>
+        <td>double</td>
+      </tr>
+      <tr>
+        <td>Valueless</td>
+        <td>void</td>
+      </tr>
+      <tr>
+        <td>Wide character</td>
+        <td>wchar_t</td>
+      </tr>
+    </table>
+    <p>Several of the basic types can be modified using one or more of these type modifiers &minus;</p>
+    <ul class="list">
+      <li>signed</li>
+      <li>unsigned</li>
+      <li>short</li>
+      <li>long</li>
+    </ul>
+    <p>The following table shows the variable type, how much memory it takes to store the value in memory, and what is
+      maximum and minimum value which can be stored in such type of variables.</p>
+    <table class="table table-bordered" style="text-align:center;">
+      <tr>
+        <th style="text-align:center;">Type</th>
+        <th style="text-align:center;">Typical Bit Width</th>
+        <th style="text-align:center;">Typical Range</th>
+      </tr>
+      <tr>
+        <td>char</td>
+        <td>1byte</td>
+        <td>-127 to 127 or 0 to 255</td>
+      </tr>
+      <tr>
+        <td>unsigned char</td>
+        <td>1byte</td>
+        <td>0 to 255</td>
+      </tr>
+      <tr>
+        <td>signed char</td>
+        <td>1byte</td>
+        <td>-127 to 127</td>
+      </tr>
+      <tr>
+        <td>int</td>
+        <td>4bytes</td>
+        <td>-2147483648 to 2147483647</td>
+      </tr>
+      <tr>
+        <td>unsigned int</td>
+        <td>4bytes</td>
+        <td>0 to 4294967295</td>
+      </tr>
+      <tr>
+        <td>signed int</td>
+        <td>4bytes</td>
+        <td>-2147483648 to 2147483647</td>
+      </tr>
+      <tr>
+        <td>short int</td>
+        <td>2bytes</td>
+        <td>-32768 to 32767</td>
+      </tr>
+      <tr>
+        <td>unsigned short int</td>
+        <td>2bytes</td>
+        <td>0 to 65,535</td>
+      </tr>
+      <tr>
+        <td>signed short int</td>
+        <td>2bytes</td>
+        <td>-32768 to 32767</td>
+      </tr>
+      <tr>
+        <td>long int</td>
+        <td>8bytes</td>
+        <td>-2,147,483,648 to 2,147,483,647</td>
+      </tr>
+      <tr>
+        <td>signed long int</td>
+        <td>8bytes</td>
+        <td>same as long int</td>
+      </tr>
+      <tr>
+        <td>unsigned long int</td>
+        <td>8bytes</td>
+        <td>0 to 4,294,967,295</td>
+      </tr>
+      <tr>
+        <td>long long int</td>
+        <td>8bytes</td>
+        <td>-(2^63) to (2^63)-1</td>
+      </tr>
+      <tr>
+        <td>unsigned long long int</td>
+        <td>8bytes</td>
+        <td>0 to 18,446,744,073,709,551,615</td>
+      </tr>
+      <tr>
+        <td>float</td>
+        <td>4bytes</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>double</td>
+        <td>8bytes</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>long double</td>
+        <td>12bytes</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>wchar_t</td>
+        <td>2 or 4 bytes</td>
+        <td>1 wide character</td>
+      </tr>
+    </table>
+    <p>The size of variables might be different from those shown in the above table, depending on the compiler and the
+      computer you are using.</p>
+    <p>Following is the example, which will produce correct size of various data types on your computer.</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/iKNn78" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranslate">
+                #include &lt;iostream&gt;
+                using namespace std;
+                
+                int main() {
+                   cout &lt;&lt; "Size of char : " &lt;&lt; sizeof(char) &lt;&lt; endl;
+                   cout &lt;&lt; "Size of int : " &lt;&lt; sizeof(int) &lt;&lt; endl;
+                   cout &lt;&lt; "Size of short int : " &lt;&lt; sizeof(short int) &lt;&lt; endl;
+                   cout &lt;&lt; "Size of long int : " &lt;&lt; sizeof(long int) &lt;&lt; endl;
+                   cout &lt;&lt; "Size of float : " &lt;&lt; sizeof(float) &lt;&lt; endl;
+                   cout &lt;&lt; "Size of double : " &lt;&lt; sizeof(double) &lt;&lt; endl;
+                   cout &lt;&lt; "Size of wchar_t : " &lt;&lt; sizeof(wchar_t) &lt;&lt; endl;
+                   
+                   return 0;
+                }
+                </pre>
+    <p>This example uses <b>endl</b>, which inserts a new-line character after every line and &lt;&lt; operator is being
+      used to pass multiple values out to the screen. We are also using <b>sizeof()</b> operator to get size of various
+      data types.</p>
+    <p>When the above code is compiled and executed, it produces the following result which can vary from machine to
+      machine &minus;</p>
+    <pre class="result notranslate">
+                Size of char : 1
+                Size of int : 4
+                Size of short int : 2
+                Size of long int : 4
+                Size of float : 4
+                Size of double : 8
+                Size of wchar_t : 4
+                </pre>
+    <h2>typedef Declarations</h2>
+    <p>You can create a new name for an existing type using <b>typedef</b>. Following is the simple syntax to define a
+      new type using typedef &minus;</p>
+    <pre class="result notranslate">
+                typedef type newname; 
+                </pre>
+    <p>For example, the following tells the compiler that feet is another name for int &minus;</p>
+    <pre class="result notranslate">
+                typedef int feet;
+                </pre>
+    <p>Now, the following declaration is perfectly legal and creates an integer variable called distance &minus;</p>
+    <pre class="result notranslate">
+                feet distance;
+                </pre>
+    <h2>Enumerated Types</h2>
+    <p>An enumerated type declares an optional type name and a set of zero or more identifiers that can be used as
+      values of the type. Each enumerator is a constant whose type is the enumeration.</p>
+    <p>Creating an enumeration requires the use of the keyword <b>enum</b>. The general form of an enumeration type is
+      &minus;</p>
+    <pre class="result notranslate">
+                enum enum-name { list of names } var-list; 
+                </pre>
+    <p>Here, the enum-name is the enumeration's type name. The list of names is comma separated.</p>
+    <p>For example, the following code defines an enumeration of colors called colors and the variable c of type color.
+      Finally, c is assigned the value "blue".</p>
+    <pre class="result notranslate">
+                enum color { red, green, blue } c;
+                c = blue;
+                </pre>
+    <p>By default, the value of the first name is 0, the second name has the value 1, and the third has the value 2, and
+      so on. But you can give a name, a specific value by adding an initializer. For example, in the following
+      enumeration, <b>green</b> will have the value 5.</p>
+    <pre class="result notranslate">
+                enum color { red, green = 5, blue };
+                </pre>
+    <p>Here, <b>blue</b> will have a value of 6 because each name will be one greater than the one that precedes it.</p>
+
+  </article>
+
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+  <!-- bootstrap cdn javascrip link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

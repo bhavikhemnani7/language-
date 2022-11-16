@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website</title>
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./logo.png" />
+  <!--font awesome cdn font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="web-header">
+      <a href="index.html"><img src="./logo.png" alt="logo"></a>
+      <h1>WELCOME TO HACKING COMMUNITY OF LEARNING</h1>
+      <div class="web-social">
+
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+
+        <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+
+        <a href="https://www.googleplus.com" target="blank"><i class="fab fa-google-plus"></i></a>
+
+        <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="breknews">
+      <span id="btext">NEW COURSES</span>
+      <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#" class="newc">
+          <p class="bntime">13 march 2021</p>
+          NEW COURSE OF PYTHON IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">15 march 2021</p>
+          NEW COURSE OF REACT IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">19 march 2021</p>
+          NEW COURSE OF JAVA IS ARRIVED
+        </a>
+      </marquee>
+    </div>
+
+  </header>
+
+  <article class="ar1">
+
+    <ul class="leftmenu">
+      <li class="mh">C++ Basics</li>
+      <li><a href="home.html">C++ Home</a></li>
+      <li><a href="c++overview.html">C++ Overview</a></li>
+      <li><a href="C++EnvironmentSetup.html">C++ Environment Setup</a></li>
+      <li><a href="C++BasicSyntax.html">C++ Basic Syntax</a></li>
+      <li><a href="C++Comments.html">C++ Comments</a></li>
+      <li><a href="c++datatypes.html">C++ Data Types</a></li>
+      <li><a href="c++variabletypes.html">C++ Variable Types</a></li>
+      <li><a href="c++variablescope.html">C++ Variable Scope</a></li>
+      <li><a href="c++constantsliterls.html">C++ Constants/Literals</a></li>
+      <li><a href="c++modifiertypes.html">C++ Modifier Types</a></li>
+      <li><a href="c++storageclasses.html">C++ Storage Classes</a></li>
+      <li><a href="c++operators.html">C++ Operators</a></li>
+      <li><a href="c++looptypes.html">C++ Loop Types</a></li>
+      <li><a href="c++desisionmaking.html">C++ Decision Making</a></li>
+      <li><a href="c++functions.html">C++ Functions</a></li>
+      <li><a href="c++numbers.html">C++ Numbers</a></li>
+      <li><a href="c++arrays.html">C++ Arrays</a></li>
+      <li><a href="c++strings.html">C++ Strings</a></li>
+      <li><a href="c++pointer.html">C++ Pointers</a></li>
+      <li><a href="c++references.html">C++ References</a></li>
+      <li><a href="c++datetime.html">C++ Date &amp; Time</a></li>
+      <li><a href="c++basicinpuloutput.html">C++ Basic Input/Output</a></li>
+      <li><a href="c++datastructures.html">C++ Data Structures</a></li>
+    </ul>
+
+    <p>C++ allows the <b>char, int, </b> and <b>double</b> data types to have modifiers preceding them. A modifier is
+      used to alter the meaning of the base type so that it more precisely fits the needs of various situations.</p>
+    <p>The data type modifiers are listed here &minus;</p>
+    <ul class="list">
+      <li>signed</li>
+      <li>unsigned</li>
+      <li>long</li>
+      <li>short</li>
+    </ul>
+    <p>The modifiers <b>signed, unsigned, long,</b> and <b>short</b> can be applied to integer base types. In addition,
+      <b>signed</b> and <b>unsigned</b> can be applied to char, and <b>long</b> can be applied to double.</p>
+    <p>The modifiers <b>signed</b> and <b>unsigned</b> can also be used as prefix to <b>long</b> or <b>short</b>
+      modifiers. For example, <b>unsigned long int</b>.</p>
+    <p>C++ allows a shorthand notation for declaring <b>unsigned, short,</b> or <b>long</b> integers. You can simply use
+      the word <b>unsigned, short,</b> or <b>long,</b> without <b>int</b>. It automatically implies <b>int</b>. For
+      example, the following two statements both declare unsigned integer variables.</p>
+    <pre class="result notranslate">
+unsigned x;
+unsigned int y;
+</pre>
+    <p>To understand the difference between the way signed and unsigned integer modifiers are interpreted by C++, you
+      should run the following short program &minus;</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/nWAgjz" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranslate">
+#include &lt;iostream&gt;
+using namespace std;
+ 
+/* This program shows the difference between
+   * signed and unsigned integers.
+*/
+int main() {
+   short int i;           // a signed short integer
+   short unsigned int j;  // an unsigned short integer
+
+   j = 50000;
+
+   i = j;
+   cout &lt;&lt; i &lt;&lt; " " &lt;&lt; j;
+
+   return 0;
+}
+</pre>
+    <p>When this program is run, following is the output &minus;</p>
+    <pre class="result notranslate">
+-15536 50000
+</pre>
+    <p>The above result is because the bit pattern that represents 50,000 as a short unsigned integer is interpreted as
+      -15,536 by a short.</p>
+    <h2>Type Qualifiers in C++</h2>
+    <p>The type qualifiers provide additional information about the variables they precede.</p>
+    <table class="table table-bordered">
+      <tr>
+        <th>Sr.No</th>
+        <th style="text-align:center;">Qualifier &amp; Meaning</th>
+      </tr>
+      <tr>
+        <td class="ts">1</td>
+        <td>
+          <p><b>const</b></p>
+          <p>Objects of type <b>const</b> cannot be changed by your program during execution.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">2</td>
+        <td>
+          <p><b>volatile</b></p>
+          <p>The modifier <b>volatile</b> tells the compiler that a variable's value may be changed in ways not
+            explicitly specified by the program.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">3</td>
+        <td>
+          <p><b>restrict</b></p>
+          <p>A pointer qualified by <b>restrict</b> is initially the only means by which the object it points to can be
+            accessed. Only C99 adds a new type qualifier called restrict.</p>
+        </td>
+      </tr>
+    </table>
+  </article>
+
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+  <!-- bootstrap cdn javascrip link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

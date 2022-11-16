@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website</title>
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./logo.png" />
+  <!--font awesome cdn font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="web-header">
+      <a href="index.html"><img src="./logo.png" alt="logo"></a>
+      <h1>WELCOME TO HACKING COMMUNITY OF LEARNING</h1>
+      <div class="web-social">
+
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+
+        <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+
+        <a href="https://www.googleplus.com" target="blank"><i class="fab fa-google-plus"></i></a>
+
+        <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="breknews">
+      <span id="btext">NEW COURSES</span>
+      <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#" class="newc">
+          <p class="bntime">13 march 2021</p>
+          NEW COURSE OF PYTHON IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">15 march 2021</p>
+          NEW COURSE OF REACT IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">19 march 2021</p>
+          NEW COURSE OF JAVA IS ARRIVED
+        </a>
+      </marquee>
+    </div>
+
+  </header>
+
+  <article class="ar1">
+
+    <ul class="leftmenu">
+      <li class="mh">C++ Basics</li>
+      <li><a href="home.html">C++ Home</a></li>
+      <li><a href="c++overview.html">C++ Overview</a></li>
+      <li><a href="C++EnvironmentSetup.html">C++ Environment Setup</a></li>
+      <li><a href="C++BasicSyntax.html">C++ Basic Syntax</a></li>
+      <li><a href="C++Comments.html">C++ Comments</a></li>
+      <li><a href="c++datatypes.html">C++ Data Types</a></li>
+      <li><a href="c++variabletypes.html">C++ Variable Types</a></li>
+      <li><a href="c++variablescope.html">C++ Variable Scope</a></li>
+      <li><a href="c++constantsliterls.html">C++ Constants/Literals</a></li>
+      <li><a href="c++modifiertypes.html">C++ Modifier Types</a></li>
+      <li><a href="c++storageclasses.html">C++ Storage Classes</a></li>
+      <li><a href="c++operators.html">C++ Operators</a></li>
+      <li><a href="c++looptypes.html">C++ Loop Types</a></li>
+      <li><a href="c++desisionmaking.html">C++ Decision Making</a></li>
+      <li><a href="c++functions.html">C++ Functions</a></li>
+      <li><a href="c++numbers.html">C++ Numbers</a></li>
+      <li><a href="c++arrays.html">C++ Arrays</a></li>
+      <li><a href="c++strings.html">C++ Strings</a></li>
+      <li><a href="c++pointer.html">C++ Pointers</a></li>
+      <li><a href="c++references.html">C++ References</a></li>
+      <li><a href="c++datetime.html">C++ Date &amp; Time</a></li>
+      <li><a href="c++basicinpuloutput.html">C++ Basic Input/Output</a></li>
+      <li><a href="c++datastructures.html">C++ Data Structures</a></li>
+    </ul>
+
+    <p>C++ provides following two types of string representations &minus;</p>
+    <ul class="list">
+      <li>The C-style character string.</li>
+      <li>The string class type introduced with Standard C++.</li>
+    </ul>
+    <h2>The C-Style Character String</h2>
+    <p>The C-style character string originated within the C language and continues to be supported within C++. This
+      string is actually a one-dimensional array of characters which is terminated by a <b>null</b> character '\0'. Thus
+      a null-terminated string contains the characters that comprise the string followed by a <b>null</b>.</p>
+    <p>The following declaration and initialization create a string consisting of the word "Hello". To hold the null
+      character at the end of the array, the size of the character array containing the string is one more than the
+      number of characters in the word "Hello."</p>
+    <pre class="result notranlate">
+                char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+                </pre>
+    <p>If you follow the rule of array initialization, then you can write the above statement as follows &minus;</p>
+    <pre class="result notranlate">
+                char greeting[] = "Hello";
+                </pre>
+    <p>Following is the memory presentation of above defined string in C/C++ &minus;</p>
+    <img src="./string_representation.jpg" alt="String Presentation in C/C++" />
+    <p>Actually, you do not place the null character at the end of a string constant. The C++ compiler automatically
+      places the '\0' at the end of the string when it initializes the array. Let us try to print above-mentioned string
+      &minus;</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/OzjL2L" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranlate">
+                #include &lt;iostream&gt;
+                
+                using namespace std;
+                
+                int main () {
+                
+                   char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+                
+                   cout &lt;&lt; "Greeting message: ";
+                   cout &lt;&lt; greeting &lt;&lt; endl;
+                
+                   return 0;
+                }
+                </pre>
+    <p>When the above code is compiled and executed, it produces the following result &minus;</p>
+    <pre class="result notranlate">
+                Greeting message: Hello
+                </pre>
+    <p>C++ supports a wide range of functions that manipulate null-terminated strings &minus;</p>
+    <table class="table table-bordered">
+      <tr>
+        <th>Sr.No</th>
+        <th style="text-align:center;">Function &amp; Purpose</th>
+      </tr>
+      <tr>
+        <td class="ts">1</td>
+        <td>
+          <p><b>strcpy(s1, s2);</b></p>
+          <p>Copies string s2 into string s1.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">2</td>
+        <td>
+          <p><b>strcat(s1, s2);</b></p>
+          <p>Concatenates string s2 onto the end of string s1.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">3</td>
+        <td>
+          <p><b>strlen(s1);</b></p>
+          <p>Returns the length of string s1.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">4</td>
+        <td>
+          <p><b>strcmp(s1, s2);</b></p>
+          <p>Returns 0 if s1 and s2 are the same; less than 0 if s1&lt;s2; greater than 0 if s1&gt;s2.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">5</td>
+        <td>
+          <p><b>strchr(s1, ch);</b></p>
+          <p>Returns a pointer to the first occurrence of character ch in string s1.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">6</td>
+        <td>
+          <p><b>strstr(s1, s2);</b></p>
+          <p>Returns a pointer to the first occurrence of string s2 in string s1.</p>
+        </td>
+      </tr>
+    </table>
+    <p>Following example makes use of few of the above-mentioned functions &minus;</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/oA6mP3" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranlate">
+                #include &lt;iostream&gt;
+                #include &lt;cstring&gt;
+                
+                using namespace std;
+                
+                int main () {
+                
+                   char str1[10] = "Hello";
+                   char str2[10] = "World";
+                   char str3[10];
+                   int  len ;
+                
+                   // copy str1 into str3
+                   strcpy( str3, str1);
+                   cout &lt;&lt; "strcpy( str3, str1) : " &lt;&lt; str3 &lt;&lt; endl;
+                
+                   // concatenates str1 and str2
+                   strcat( str1, str2);
+                   cout &lt;&lt; "strcat( str1, str2): " &lt;&lt; str1 &lt;&lt; endl;
+                
+                   // total lenghth of str1 after concatenation
+                   len = strlen(str1);
+                   cout &lt;&lt; "strlen(str1) : " &lt;&lt; len &lt;&lt; endl;
+                
+                   return 0;
+                }
+                </pre>
+    <p>When the above code is compiled and executed, it produces result something as follows &minus;</p>
+    <pre class="result notranlate">
+                strcpy( str3, str1) : Hello
+                strcat( str1, str2): HelloWorld
+                strlen(str1) : 10
+                </pre>
+    <h2>The String Class in C++</h2>
+    <p>The standard C++ library provides a <b>string</b> class type that supports all the operations mentioned above,
+      additionally much more functionality. Let us check the following example &minus;</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/upuWFC" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranlate">
+                #include &lt;iostream&gt;
+                #include &lt;string&gt;
+                
+                using namespace std;
+                
+                int main () {
+                
+                   string str1 = "Hello";
+                   string str2 = "World";
+                   string str3;
+                   int  len ;
+                
+                   // copy str1 into str3
+                   str3 = str1;
+                   cout &lt;&lt; "str3 : " &lt;&lt; str3 &lt;&lt; endl;
+                
+                   // concatenates str1 and str2
+                   str3 = str1 + str2;
+                   cout &lt;&lt; "str1 + str2 : " &lt;&lt; str3 &lt;&lt; endl;
+                
+                   // total length of str3 after concatenation
+                   len = str3.size();
+                   cout &lt;&lt; "str3.size() :  " &lt;&lt; len &lt;&lt; endl;
+                
+                   return 0;
+                }
+                </pre>
+    <p>When the above code is compiled and executed, it produces result something as follows &minus;</p>
+    <pre class="result notranlate">
+                str3 : Hello
+                str1 + str2 : HelloWorld
+                str3.size() :  10
+                </pre>
+  </article>
+
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+  <!-- bootstrap cdn javascrip link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

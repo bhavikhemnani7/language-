@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website</title>
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./logo.png" />
+  <!--font awesome cdn font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="web-header">
+      <a href="index.html"><img src="./logo.png" alt="logo"></a>
+      <h1>WELCOME TO HACKING COMMUNITY OF LEARNING</h1>
+      <div class="web-social">
+
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+
+        <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+
+        <a href="https://www.googleplus.com" target="blank"><i class="fab fa-google-plus"></i></a>
+
+        <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="breknews">
+      <span id="btext">NEW COURSES</span>
+      <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#" class="newc">
+          <p class="bntime">13 march 2021</p>
+          NEW COURSE OF PYTHON IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">15 march 2021</p>
+          NEW COURSE OF REACT IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">19 march 2021</p>
+          NEW COURSE OF JAVA IS ARRIVED
+        </a>
+      </marquee>
+    </div>
+
+  </header>
+
+  <article class="ar1">
+
+    <ul class="leftmenu">
+      <li class="mh">C++ Basics</li>
+      <li><a href="home.html">C++ Home</a></li>
+      <li><a href="c++overview.html">C++ Overview</a></li>
+      <li><a href="C++EnvironmentSetup.html">C++ Environment Setup</a></li>
+      <li><a href="C++BasicSyntax.html">C++ Basic Syntax</a></li>
+      <li><a href="C++Comments.html">C++ Comments</a></li>
+      <li><a href="c++datatypes.html">C++ Data Types</a></li>
+      <li><a href="c++variabletypes.html">C++ Variable Types</a></li>
+      <li><a href="c++variablescope.html">C++ Variable Scope</a></li>
+      <li><a href="c++constantsliterls.html">C++ Constants/Literals</a></li>
+      <li><a href="c++modifiertypes.html">C++ Modifier Types</a></li>
+      <li><a href="c++storageclasses.html">C++ Storage Classes</a></li>
+      <li><a href="c++operators.html">C++ Operators</a></li>
+      <li><a href="c++looptypes.html">C++ Loop Types</a></li>
+      <li><a href="c++desisionmaking.html">C++ Decision Making</a></li>
+      <li><a href="c++functions.html">C++ Functions</a></li>
+      <li><a href="c++numbers.html">C++ Numbers</a></li>
+      <li><a href="c++arrays.html">C++ Arrays</a></li>
+      <li><a href="c++strings.html">C++ Strings</a></li>
+      <li><a href="c++pointer.html">C++ Pointers</a></li>
+      <li><a href="c++references.html">C++ References</a></li>
+      <li><a href="c++datetime.html">C++ Date &amp; Time</a></li>
+      <li><a href="c++basicinpuloutput.html">C++ Basic Input/Output</a></li>
+      <li><a href="c++datastructures.html">C++ Data Structures</a></li>
+    </ul>
+
+    <p>There may be a situation, when you need to execute a block of code several number of times. In general,
+      statements are executed sequentially: The first statement in a function is executed first, followed by the second,
+      and so on.</p>
+    <p>Programming languages provide various control structures that allow for more complicated execution paths.</p>
+    <p>A loop statement allows us to execute a statement or group of statements multiple times and following is the
+      general from of a loop statement in most of the programming languages &minus;</p>
+    <img src="./loop_architecture.jpg" alt="Loop Architecture" />
+    <p>C++ programming language provides the following type of loops to handle looping requirements.</p>
+    <table class="table table-bordered">
+      <tr>
+        <th>Sr.No</th>
+        <th style="text-align:center;">Loop Type &amp; Description</th>
+      </tr>
+      <tr>
+        <td class="ts">1</td>
+        <td><a href="/cplusplus/cpp_while_loop.htm" title="C++ while loop">while loop</a>
+          <p>Repeats a statement or group of statements while a given condition is true. It tests the condition before
+            executing the loop body.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">2</td>
+        <td><a href="/cplusplus/cpp_for_loop.htm" title="C++ for loop">for loop</a>
+          <p>Execute a sequence of statements multiple times and abbreviates the code that manages the loop variable.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">3</td>
+        <td><a href="/cplusplus/cpp_do_while_loop.htm" title="C++ do...while loop">do...while loop</a>
+          <p>Like a ‘while’ statement, except that it tests the condition at the end of the loop body.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">4</td>
+        <td><a href="/cplusplus/cpp_nested_loops.htm" title="C++ nested loops">nested loops</a>
+          <p>You can use one or more loop inside any another ‘while’, ‘for’ or ‘do..while’ loop.</p>
+        </td>
+      </tr>
+    </table>
+    <h2>Loop Control Statements</h2>
+    <p>Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic
+      objects that were created in that scope are destroyed.</p>
+    <p>C++ supports the following control statements.</p>
+    <table class="table table-bordered">
+      <tr>
+        <th>Sr.No</th>
+        <th style="text-align:center;">Control Statement &amp; Description</th>
+      </tr>
+      <tr>
+        <td class="ts">1</td>
+        <td><a href="/cplusplus/cpp_break_statement.htm" title="C++ break statement">break statement</a>
+          <p>Terminates the <b>loop</b> or <b>switch</b> statement and transfers execution to the statement immediately
+            following the loop or switch.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">2</td>
+        <td><a href="/cplusplus/cpp_continue_statement.htm" title="C++ continue statement">continue statement</a>
+          <p>Causes the loop to skip the remainder of its body and immediately retest its condition prior to
+            reiterating.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="ts">3</td>
+        <td><a href="/cplusplus/cpp_goto_statement.htm" title="C++ goto statement">goto statement</a>
+          <p>Transfers control to the labeled statement. Though it is not advised to use goto statement in your program.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <h2>The Infinite Loop</h2>
+    <p>A loop becomes infinite loop if a condition never becomes false. The <b>for</b> loop is traditionally used for
+      this purpose. Since none of the three expressions that form the ‘for’ loop are required, you can make an endless
+      loop by leaving the conditional expression empty.</p>
+    <pre class="prettyprint notranslate">
+                #include &lt;iostream&gt;
+                using namespace std;
+                 
+                int main () {
+                   for( ; ; ) {
+                      printf("This loop will run forever.\n");
+                   }
+                
+                   return 0;
+                }
+                </pre>
+    <p>When the conditional expression is absent, it is assumed to be true. You may have an initialization and increment
+      expression, but C++ programmers more commonly use the ‘for (;;)’ construct to signify an infinite loop.</p>
+    <p><b>NOTE</b> &minus; You can terminate an infinite loop by pressing Ctrl + C keys.</p>
+
+  </article>
+
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+  <!-- bootstrap cdn javascrip link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

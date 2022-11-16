@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>website</title>
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./logo.png" />
+  <!--font awesome cdn font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!--BOOTSTRAP CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="web-header">
+      <a href="index.html"><img src="./logo.png" alt="logo"></a>
+      <h1>WELCOME TO HACKING COMMUNITY OF LEARNING</h1>
+      <div class="web-social">
+
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+
+        <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+
+        <a href="https://www.googleplus.com" target="blank"><i class="fab fa-google-plus"></i></a>
+
+        <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md">
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="breknews">
+      <span id="btext">NEW COURSES</span>
+      <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#" class="newc">
+          <p class="bntime">13 march 2021</p>
+          NEW COURSE OF PYTHON IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">15 march 2021</p>
+          NEW COURSE OF REACT IS ARRIVED
+        </a>
+
+        <a href="#" class="newc">
+          <p class="bntime">19 march 2021</p>
+          NEW COURSE OF JAVA IS ARRIVED
+        </a>
+      </marquee>
+    </div>
+
+  </header>
+
+  <article class="ar1">
+
+    <ul class="leftmenu">
+      <li class="mh">C++ Basics</li>
+      <li><a href="home.html">C++ Home</a></li>
+      <li><a href="c++overview.html">C++ Overview</a></li>
+      <li><a href="C++EnvironmentSetup.html">C++ Environment Setup</a></li>
+      <li><a href="C++BasicSyntax.html">C++ Basic Syntax</a></li>
+      <li><a href="C++Comments.html">C++ Comments</a></li>
+      <li><a href="c++datatypes.html">C++ Data Types</a></li>
+      <li><a href="c++variabletypes.html">C++ Variable Types</a></li>
+      <li><a href="c++variablescope.html">C++ Variable Scope</a></li>
+      <li><a href="c++constantsliterls.html">C++ Constants/Literals</a></li>
+      <li><a href="c++modifiertypes.html">C++ Modifier Types</a></li>
+      <li><a href="c++storageclasses.html">C++ Storage Classes</a></li>
+      <li><a href="c++operators.html">C++ Operators</a></li>
+      <li><a href="c++looptypes.html">C++ Loop Types</a></li>
+      <li><a href="c++desisionmaking.html">C++ Decision Making</a></li>
+      <li><a href="c++functions.html">C++ Functions</a></li>
+      <li><a href="c++numbers.html">C++ Numbers</a></li>
+      <li><a href="c++arrays.html">C++ Arrays</a></li>
+      <li><a href="c++strings.html">C++ Strings</a></li>
+      <li><a href="c++pointer.html">C++ Pointers</a></li>
+      <li><a href="c++references.html">C++ References</a></li>
+      <li><a href="c++datetime.html">C++ Date &amp; Time</a></li>
+      <li><a href="c++basicinpuloutput.html">C++ Basic Input/Output</a></li>
+      <li><a href="c++datastructures.html">C++ Data Structures</a></li>
+    </ul>
+
+    <p>A storage class defines the scope (visibility) and life-time of variables and/or functions within a C++ Program.
+      These specifiers precede the type that they modify. There are following storage classes, which can be used in a
+      C++ Program</p>
+    <ul class="list">
+      <li>auto</li>
+      <li>register</li>
+      <li>static</li>
+      <li>extern</li>
+      <li>mutable</li>
+    </ul>
+    <h2>The auto Storage Class</h2>
+    <p>The <b>auto</b> storage class is the default storage class for all local variables.</p>
+    <pre class="result notranslate">
+{
+   int mount;
+   auto int month;
+}
+</pre>
+    <p>The example above defines two variables with the same storage class, auto can only be used within functions,
+      i.e., local variables.</p>
+    <h2>The register Storage Class</h2>
+    <p>The <b>register</b> storage class is used to define local variables that should be stored in a register instead
+      of RAM. This means that the variable has a maximum size equal to the register size (usually one word) and can't
+      have the unary '&amp;' operator applied to it (as it does not have a memory location).</p>
+    <pre class="result notranslate">
+{
+   register int  miles;
+}
+</pre>
+    <p>The register should only be used for variables that require quick access such as counters. It should also be
+      noted that defining 'register' does not mean that the variable will be stored in a register. It means that it
+      MIGHT be stored in a register depending on hardware and implementation restrictions.</p>
+    <h2>The static Storage Class</h2>
+    <p>The <b>static</b> storage class instructs the compiler to keep a local variable in existence during the life-time
+      of the program instead of creating and destroying it each time it comes into and goes out of scope. Therefore,
+      making local variables static allows them to maintain their values between function calls.</p>
+    <p>The static modifier may also be applied to global variables. When this is done, it causes that variable's scope
+      to be restricted to the file in which it is declared.</p>
+    <p>In C++, when static is used on a class data member, it causes only one copy of that member to be shared by all
+      objects of its class.</p>
+    <div class="demo-view">
+      <a href="http://tpcg.io/20HjiV" target="_blank" rel="nofollow" class="demo"><i class="fa-external-link"></i> Live
+        Demo</a>
+    </div>
+    <pre class="prettyprint notranslate">
+#include &lt;iostream&gt;
+ 
+// Function declaration
+void func(void);
+ 
+static int count = 10; /* Global variable */
+ 
+main() {
+   while(count--) {
+      func();
+   }
+   
+   return 0;
+}
+
+// Function definition
+void func( void ) {
+   static int i = 5; // local static variable
+   i++;
+   std::cout &lt;&lt; "i is " &lt;&lt; i ;
+   std::cout &lt;&lt; " and count is " &lt;&lt; count &lt;&lt; std::endl;
+}
+</pre>
+    <p>When the above code is compiled and executed, it produces the following result &minus;</p>
+    <pre class="result notranslate">
+i is 6 and count is 9
+i is 7 and count is 8
+i is 8 and count is 7
+i is 9 and count is 6
+i is 10 and count is 5
+i is 11 and count is 4
+i is 12 and count is 3
+i is 13 and count is 2
+i is 14 and count is 1
+i is 15 and count is 0
+</pre>
+    <h2>The extern Storage Class</h2>
+    <p>The <b>extern</b> storage class is used to give a reference of a global variable that is visible to ALL the
+      program files. When you use 'extern' the variable cannot be initialized as all it does is point the variable name
+      at a storage location that has been previously defined.</p>
+    <p>When you have multiple files and you define a global variable or function, which will be used in other files
+      also, then <i>extern</i> will be used in another file to give reference of defined variable or function. Just for
+      understanding <i> extern </i> is used to declare a global variable or function in another file.</p>
+    <p>The extern modifier is most commonly used when there are two or more files sharing the same global variables or
+      functions as explained below.</p>
+    <h3>First File: main.cpp</h3>
+    <pre class="prettyprint notranslate">
+#include &lt;iostream&gt;
+int count ;
+extern void write_extern();
+ 
+main() {
+   count = 5;
+   write_extern();
+}
+</pre>
+    <h3>Second File: support.cpp</h3>
+    <pre class="result notranslate">
+#include &lt;iostream&gt;
+
+extern int count;
+
+void write_extern(void) {
+   std::cout &lt;&lt; "Count is " &lt;&lt; count &lt;&lt; std::endl;
+}
+</pre>
+    <p>Here, <i>extern</i> keyword is being used to declare count in another file. Now compile these two files as
+      follows &minus;</p>
+    <pre class="result notranslate">
+$g++ main.cpp support.cpp -o write
+</pre>
+    <p>This will produce <b>write</b> executable program, try to execute <b>write</b> and check the result as follows
+      &minus;</p>
+    <pre class="result notranslate">
+$./write
+5
+</pre>
+    <h2>The mutable Storage Class</h2>
+    <p>The <b>mutable</b> specifier applies only to class objects, which are discussed later in this tutorial. It allows
+      a member of an object to override const member function. That is, a mutable member can be modified by a const
+      member function.</p>
+  </article>
+
+  <footer>
+    <p>© Copyright 2021. All Rights Reserved.</p>
+  </footer>
+  <!-- bootstrap cdn javascrip link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
